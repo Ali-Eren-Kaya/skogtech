@@ -1,0 +1,130 @@
+SweetAlert2 kullanımı gerçekten çok basittir 😀
+
+Kurulum için aşağıda bulunan kodları <head></head> içerisine yazmanız gerekmektedir.
+
+<!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- SweetAlert2 -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.2.0/sweetalert2.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.2.0/sweetalert2.all.min.js"></script>
+
+
+Örnek Çalışma:
+
+
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+
+<meta charset="UTF-8">
+  
+
+
+<title>SweetAlert2 Örnek Çalışma</title>
+  
+  
+  
+  
+<style>
+body {
+  background-color: aliceblue;
+  font-family: sans-serif;
+  text-align: center;
+}
+button {
+  background-color: cadetblue;
+  color: whitesmoke;
+  border: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 7px;
+  padding: 15px 35px;
+  cursor: pointer;
+  white-space: nowrap;
+  margin: 10px;
+}
+img {
+  width: 200px;
+}
+input[type="text"] {
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+h1 {
+  border-bottom: solid 2px grey;
+}
+#success {
+  background: green;
+}
+#error {
+  background: red;
+}
+#warning {
+  background: coral;
+}
+#info {
+  background: cornflowerblue;
+}
+#question {
+  background: grey;
+}
+</style>
+
+<script>
+  window.console = window.console || function(t) {};
+</script>
+
+  
+  
+<script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+
+
+</head>
+
+<body translate="no" >
+  <head>
+  <title>SweetAlert2 Örnek Çalışma</title>
+  <!-- jQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- SweetAlert2 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.2.0/sweetalert2.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.2.0/sweetalert2.all.min.js"></script>
+</head>
+
+<body>
+  <div>
+    <h1>SweetAlert2 Örnek Çalışma</h1>
+    <div>
+      <button id="success">Başarılı</button>
+    </div>
+    <br>
+  </div>
+</body>
+
+  
+<script id="rendered-js" >
+// Alert Modal Type
+$(document).on('click', '#success', function (e) {
+  swal(
+  'Başarılı',
+  '<b style="color:green;">Başarılı</b> düğmesine tıkladınız!',
+  'success');
+
+});
+</script>
+
+  
+
+</body>
+
+</html>
