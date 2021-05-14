@@ -1,0 +1,7 @@
+Bulunduğunuz sayfadan belirlediğiniz linke gitmesini istiyorsanız:
+
+<a href="http://www.sitelinki.com">Link Verilecek Yazı</a>
+
+Yeni bir sayfa açıp linke gitmek istiyorsanız:
+
+<a target="_blank" href="http://www.sitelinki.com">Link Verilecek Yazı</a>
