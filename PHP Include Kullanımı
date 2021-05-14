@@ -1,0 +1,26 @@
+include, belirtilen dosyayı kodun yazıldığı dosya içerisine eklemek için kullanılır.
+
+include fonksiyonunu aşağıdaki örneklerdeki gibi kullanabilirsiniz.
+
+<?php
+
+include "config.php";
+
+?>
+Yukarıda gördüğünüz gibi config.php dosyasını include etmiş olmaktayız.
+
+Her bir sayfa için ayrı bir header ve footer oluşturmak yerine include kullanmak işinizi daha hızlı yapmanıza olanak sağlayacaktır.
+
+Örnek:
+
+<?php
+
+include "header.php";
+
+"Sayfa İçeriği"
+
+include "footer.php";
+
+?>
+Yukarıda gördüğünüz örnekte hem header.php yi include ettik hemde footer.php yi...
+
