@@ -1,0 +1,39 @@
+MySQLi Nesne Tabanlı
+
+----
+
+<?php
+$servername = "localhost";
+$username = "kadi";
+$password = "sifre";
+
+// Bağlantı oluştur
+$conn = new mysqli($servername, $username, $password);
+
+// Bağlantıyı kontrol et
+if ($conn->connect_error) {
+  die("Bağlantı başarısız oldu: " . $conn->connect_error);
+}
+echo "Başarıyla bağlandı";
+?>
+
+----
+
+MySQLi Prosedürü
+
+----
+
+<?php
+$servername = "localhost";
+$username = "kadi";
+$password = "sifre";
+
+// Bağlantı oluştur
+$conn = mysqli_connect($servername, $username, $password);
+
+// Bağlantıyı kontrol et
+if (!$conn) {
+  die("Bağlantı başarısız oldu: " . mysqli_connect_error());
+}
+echo "Başarıyla bağlandı";
+?>
