@@ -1,0 +1,5 @@
+<?php
+$uyesql = mysql_query("SELECT * FROM uyeler WHERE id='".$_SESSION['id']."'");
+$uyecek = mysql_fetch_array($uyesql);
+echo "".$uyecek['kadi']."";
+?>
