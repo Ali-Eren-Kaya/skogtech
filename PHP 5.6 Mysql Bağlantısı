@@ -1,0 +1,16 @@
+<?php
+
+$kull = "root"; // MYSQL KULLANICI ADI
+$pass = "sifre"; // MYSQL SIFRE
+$db = "veritabani"; // MYSQL DB
+$host = "localhost"; // MYSQL HOST
+
+if(mysql_connect($host, $kull, $pass)){
+}else{
+echo "MYSQL BAGLANAMADI"; exit;
+}
+if(mysql_select_db($db)){
+}else{
+echo "DATABASE SEÇİLEMEDİ"; exit;
+}
+?>
