@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p {
+  border: 2px solid powderblue;
+}
+</style>
+</head>
+<body>
+
+<h1>Bu Bir Başlık</h1>
+
+<p>Bu bir paragraf.</p>
+<p>Bu bir paragraf.</p>
+<p>Bu bir paragraf.</p>
+
+</body>
+</html>
